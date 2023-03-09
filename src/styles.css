@@ -1,0 +1,30 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .counter {
+    /* defines space outside border */
+    margin: 20px;
+    border: 1px solid black;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  
+    /* defines space inside border */
+    padding: 20px;
+  }
+  
+  button {
+    border: none;
+    width: fit-content;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* use # to style id, but it's best to avoid ids since ids are unique
+while React components are reusable */
