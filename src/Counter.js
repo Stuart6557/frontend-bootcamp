@@ -36,7 +36,7 @@ export default function Counter(props) {
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
 
-    {/* if for some reason you need a parameter in the function */}
+      {/* if for some reason you need a parameter in the function */}
       <button
         onClick={() => {
           printValue(currentCount);
