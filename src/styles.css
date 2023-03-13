@@ -26,5 +26,12 @@ button {
   cursor: pointer;
 }
 
+.path-button {
+  margin-top: 10px;
+  background-color: aliceblue;
+  border: 2px solid black;
+  font-size: 20px;
+}
+
 /* use '#' to style id, but it's best to avoid ids since ids are unique
 while React components are reusable */
